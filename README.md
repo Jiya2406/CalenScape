@@ -36,10 +36,10 @@ A modern, responsive, and interactive wall calendar component built using Next.j
 
 ```
 # Clone the repository
-git clone https://github.com/your-username/calenscape.git
+git clone https://github.com/Jiya2406/CalenScape.git
 
 # Navigate into project
-cd calenscape
+cd Calendar
 
 # Install dependencies
 npm install
