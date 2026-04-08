@@ -34,19 +34,20 @@ A modern, responsive, and interactive wall calendar component built using Next.j
 
 ## Installation & Setup
 
-```
-# Clone the repository
-git clone https://github.com/Jiya2406/CalenScape.git
+Clone the repository:
+https://github.com/your-username/calenscape.git
 
-# Navigate into project
+Navigate into the project folder:
 cd Calendar
 
-# Install dependencies
+Install dependencies:
 npm install
 
-# Run development server
+Run the development server:
 npm run dev
-```
+
+Open the application in your browser:
+http://localhost:5173
 
 
 ## Future Enhancements
