@@ -2,7 +2,6 @@
 
 A modern, responsive, and interactive wall calendar component built using Next.js. This project transforms a static calendar design into a dynamic and user-friendly experience with date range selection and integrated notes.
 
----
 
 ## Features
 
@@ -12,7 +11,6 @@ A modern, responsive, and interactive wall calendar component built using Next.j
 * Integrated notes section for monthly or date-specific notes
 * Fully responsive design for desktop and mobile devices
 
----
 
 ## Tech Stack
 
@@ -20,10 +18,10 @@ A modern, responsive, and interactive wall calendar component built using Next.j
 * TypeScript
 * Tailwind CSS
 
----
 
 ## Project Structure
 
+```
 ├── public/              # Static assets
 ├── src/
 │   ├── assets/          # Images and media files
@@ -31,8 +29,8 @@ A modern, responsive, and interactive wall calendar component built using Next.j
 ├── index.html
 ├── package.json
 ├── vite.config.ts
+```
 
----
 
 ## Installation & Setup
 
@@ -50,7 +48,6 @@ npm install
 npm run dev
 ```
 
----
 
 ## Future Enhancements
 
@@ -59,5 +56,3 @@ npm run dev
 * Holiday and event markers
 * Reminder and notification system
 
-
-If you like this project, consider giving it a star on GitHub.
