@@ -35,7 +35,6 @@ A modern, responsive, and interactive wall calendar component built using Next.j
 
 ## Installation & Setup
 
-```
 1. Clone the repository:
    https://github.com/Jiya2406/CalenScape.git
 
@@ -50,7 +49,6 @@ A modern, responsive, and interactive wall calendar component built using Next.j
 
 5. Open the application in your browser:
    http://localhost:5173/
-```
 
 ## Future Enhancements
 
