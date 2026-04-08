@@ -2,6 +2,10 @@
 
 A modern, responsive, and interactive wall calendar component built using Next.js. This project transforms a static calendar design into a dynamic and user-friendly experience with date range selection and integrated notes.
 
+## Screenshots
+
+![CalenScape Preview](Screenshots/output.png)
+
 
 ## Features
 
