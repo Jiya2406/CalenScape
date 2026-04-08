@@ -22,33 +22,34 @@ A modern, responsive, and interactive wall calendar component built using Next.j
 ## Project Structure
 
 ```
-├── public/              # Static assets
-├── src/
-│   ├── assets/          # Images and media files
-│   └── components/      # Calendar, DatePicker, Notes components
-├── index.html
-├── package.json
-├── vite.config.ts
+public/ — Static assets
+src/
+assets/ — Images and media files
+components/ — Calendar and UI components
+index.html
+package.json
+vite.config.ts
+
 ```
 
 
 ## Installation & Setup
 
-Clone the repository:
-https://github.com/your-username/calenscape.git
 
-Navigate into the project folder:
-cd Calendar
+1. Clone the repository:
+   https://github.com/Jiya2406/CalenScape.git
 
-Install dependencies:
-npm install
+2. Navigate into the project folder:
+   cd Calendar
 
-Run the development server:
-npm run dev
+3. Install dependencies:
+   npm install
 
-Open the application in your browser:
-http://localhost:5173
+4. Run the development server:
+   npm run dev
 
+5. Open the application in your browser:
+   http://localhost:5173/
 
 ## Future Enhancements
 
