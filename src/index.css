@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+  /* Pastel Color Palette */
+  --bg-color: #F8F5F2; /* Soft warm beige */
+  --calendar-bg: rgba(255, 255, 255, 0.85); /* Glassmorphism background */
+  --text-main: #3D3D3D;
+  --text-muted: #8E8D8A;
+  
+  --primary-accent: #FFAAA5; /* Pastel peach */
+  --primary-accent-hover: #FF8B84;
+  --secondary-accent: #A8E6CF; /* Mint green */
+  --range-bg: rgba(255, 170, 165, 0.15); /* Soft peach background for ranges */
+  
+  --border-color: #EAE6DF;
+  --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 10px 40px rgba(0, 0, 0, 0.06);
+  
+  --radius-lg: 24px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+
+  /* Typography */
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(164, 53%, 88%, 1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(28, 100%, 86%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(253, 56%, 89%, 1) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Base Styles */
+button {
+  font-family: var(--font-sans);
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+input, textarea {
+  font-family: var(--font-sans);
+}
+
+.calendar-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  background: var(--calendar-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .calendar-wrapper {
+    flex-direction: row;
+    height: 750px;
+  }
+}
