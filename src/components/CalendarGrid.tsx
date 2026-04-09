@@ -7,7 +7,6 @@ import {
   endOfMonth, 
   isSameMonth, 
   isSameDay,
-  isWithinInterval,
   isBefore,
   isAfter,
   parseISO
